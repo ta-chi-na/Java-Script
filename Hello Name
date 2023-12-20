@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <Script>
+
+            function Enter()
+        {
+            let name = document.querySelector('#name').value;
+            alert('Hello ' + name);
+        }
+
+        </Script>
+        <title>
+            hello, Name </title>
+    </head> <body>
+            <form onsubmit="Enter(); return false;">
+                <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+                <button type="submit">Enter</button>
+            </form>
+            </body>
+</html>
